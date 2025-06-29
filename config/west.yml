@@ -8,10 +8,15 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
+    # - name: mine
+    #   url-base: https://github.com/MinaSameh1/nice-view-mod
   projects:
-    - name: mario-peripheral-animation
+    - name: hammerbeam-slideshow
       remote: gpeye
-      revision: main 
+      revision: main
+    # - name: nice-view-mod
+    #   remote: mine
+    #   revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
